@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- link for the bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/css/css_file.css">
+    <!-- glider js -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Gallery</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mt-3 w-100 d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-column align-items-center">
+                <i class="fa-solid fa-droplet navbar-brand text-light mx-2"></i>
+                <p class="logo-subcontent">Dropplet</p>
+            </div>
+            <div>
+                <ul class="d-flex flex-row justify-content-around navbar-nav ">
+                    <li>
+                        <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Link</a>
+                    </li> 
+                    <li>
+                        <a class="nav-link" href="#">Images</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">About Us</a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap/js/javascript.js"></script>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script>
+        new Glide('.glide').mount()
+    </script>
+</body>
+
+</html>
