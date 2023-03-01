@@ -23,6 +23,10 @@ body {
     height: auto;
 }
 
+.first-section {
+    background-color: var(--dark-purpel);
+}
+
 .logo-subcontent {
     color: white;
     font-style: normal;
